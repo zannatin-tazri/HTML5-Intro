@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pithar Form</title>
+    <style>
+        label{
+            display: block;
+            margin-bottom: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to Jamaler Ma PithaGhor</h1>
+    <form>
+        <label for="Name">        
+            <input id="name" type="text" placeholder="Your Name">
+         </label>
+        <label for="email"><input id="email" type="text" placeholder="Your email"></label>
+        <fieldset>
+            <legend>pick one pitha</legend>
+            <label for="">
+                <input type="radio" name="pitha" id="chitoy">
+                Chitoy
+            </label>
+            <label for="">
+                <input type="radio" name="pitha" id="Vapa">
+                Vapa
+            </label>
+            <label for="">
+                <input type="radio" name="pitha" id="Coconut">
+                Coconust
+            </label>
+            
+        </fieldset>
+        <fieldset>
+            <legend>
+                Select one or more vorta</legend>
+                <label for="sorisa">
+                    <input type="checkbox" name="vorta" id="sorisa">
+                    sorisa
+                </label>
+                <label for="shutki">
+                    <input type="checkbox" name="vorta" id="shutki">
+                    shutki
+                </label>
+                <label for="dal">
+                    <input type="checkbox" name="dal" id="dal">
+                    dal
+                </label>
+     
+        </fieldset>
+        <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="" id="" cols="60" rows="3"></textarea>
+        </fieldset>
+        <input type="reset" value="Reset">
+        <input type="Submit" value="Submit">
+        
+    </form>
+    
+</body>
+</html>
